@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  background-color: blue;
+}
+body{
+  font-family: 'Roboto' sans-serif;
+  height: 1000px;
+  width: 800px;
+  background-color: white;
+  margin: 0 auto;
+}
+h1{
+  font-size: 18px;
+  color: tomato;
+  padding: 10px;
+  border-bottom: 1px solid #afafaf;
+}
+table{
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  border-collapse: collapse;
+}
+table thead th{
+  padding: 5px;
+  background-color: lightslategrey;
+  color: white;
+}
+table tbody td{
+  padding: 5px;
+  text-align: center;
+}
+table tbody tr:nth-child(even){
+  background-color: rgb(229, 231, 233);
+}
+h2{
+  padding: 10px;
+}
+.flex-large label,.flex-large input{
+  display: block;
+  margin: 10px;
+}
